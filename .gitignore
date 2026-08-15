@@ -1,0 +1,14 @@
+.DS_Store
+.env
+courseware/.env
+reference/
+assessment/
+.claude/
+courseware/build/
+courseware/assets/
+courseware/archive/
+qa-render/
+tmp/
+*.lock
+~$*
+

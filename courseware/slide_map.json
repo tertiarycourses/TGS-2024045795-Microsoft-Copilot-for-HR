@@ -1,0 +1,93 @@
+{
+  "admin": {
+    "start": 1,
+    "end": 16
+  },
+  "units": {
+    "1": {
+      "start": 17,
+      "end": 36,
+      "title": "From Generative AI to Agentic HR"
+    },
+    "2": {
+      "start": 37,
+      "end": 56,
+      "title": "Microsoft 365 Copilot Across the HR Lifecycle"
+    },
+    "3": {
+      "start": 57,
+      "end": 76,
+      "title": "Build Governed HR Agents"
+    },
+    "4": {
+      "start": 77,
+      "end": 96,
+      "title": "Responsible Adoption and HR Transformation"
+    }
+  },
+  "activities": {
+    "1": {
+      "start": 30,
+      "end": 31,
+      "title": "Map the HR AI Opportunity Portfolio"
+    },
+    "2": {
+      "start": 32,
+      "end": 33,
+      "title": "Design a Skills-Based Workforce Plan"
+    },
+    "3": {
+      "start": 34,
+      "end": 35,
+      "title": "Write the Governed HR AI Pilot Charter"
+    },
+    "4": {
+      "start": 50,
+      "end": 51,
+      "title": "Build a Fair Resume Evidence Matrix"
+    },
+    "5": {
+      "start": 52,
+      "end": 53,
+      "title": "Draft and Govern an HR Policy Update"
+    },
+    "6": {
+      "start": 54,
+      "end": 55,
+      "title": "Create a Personalised Onboarding Journey"
+    },
+    "7": {
+      "start": 70,
+      "end": 71,
+      "title": "Build an HR Policy Q&A Agent"
+    },
+    "8": {
+      "start": 72,
+      "end": 73,
+      "title": "Design an Onboarding Coordination Agent"
+    },
+    "9": {
+      "start": 74,
+      "end": 75,
+      "title": "Build a Leave Request Agent and Approval Flow"
+    },
+    "10": {
+      "start": 90,
+      "end": 91,
+      "title": "Prepare a Fair Performance and Learning Conversation"
+    },
+    "11": {
+      "start": 92,
+      "end": 93,
+      "title": "Design Safe Employee Service and Offboarding"
+    },
+    "12": {
+      "start": 94,
+      "end": 95,
+      "title": "Capstone: Operate the HR Agent Control Room"
+    }
+  },
+  "total_slides": 105,
+  "version": "6.0",
+  "generated": "2026-08-16T03:36:37.042747"
+}
