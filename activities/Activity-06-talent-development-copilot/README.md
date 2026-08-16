@@ -1,71 +1,71 @@
-# Activity 12: Capstone: Operate the HR Agent Control Room
+# Activity 6: Create a Personalised Talent Development Journey
 
 > **Synthetic learning case:** Do not upload live employee or candidate data.
 
 ## Scenario
 
-HarbourLight now uses generative AI and agents across talent planning, hiring, onboarding, development, policy, leave, benefits, wellness and offboarding. Leaders must decide what to scale, remediate, pause or retire.
+After onboarding, the new analyst and two existing employees need different development pathways. HR currently assembles courses manually and managers lack a consistent skills-conversation structure.
 
 ## Learning goal
 
-Use lifecycle, service, risk, adoption and human-value evidence to govern the full HR AI operating system.
+Use Copilot and a bounded development agent to identify evidence-based skill gaps, prepare learning options and automate routine follow-up.
 
 ## Microsoft tools
 
+- Microsoft 365 Copilot in Word and Teams
+- Agent Builder in Microsoft 365 Copilot
 - Excel
-- Teams
-- Microsoft 365 Copilot
 
 ## Supplied mock data
 
-Use `mock-data.csv` or the **Mock Data** sheet in `Activity-12-Evidence-Workbook.xlsx`. The records are specific to this scenario and carry forward the HarbourLight case.
+Use `mock-data.csv` or the **Mock Data** sheet in `Activity-06-Evidence-Workbook.xlsx`. The records are specific to this scenario and carry forward the HarbourLight case.
 
 ## Guardrails
 
-- No scale without control thresholds
-- Employee feedback included
-- Named owner and retirement path
+- Employee can correct the skills record
+- No deterministic potential ranking
+- Manager and employee choose the final plan
 
 ## Detailed procedure
 
-1. Map every activity from talent need to offboarding and identify hand-offs between Copilot, agents, flows and humans.
-2. Review the synthetic cycle-time, quality, adoption, escalation, incident and feedback evidence.
-3. Validate denominator, baseline, target and trend for each metric.
-4. Ask Copilot to summarise evidence with cell references and explicit limitations.
-5. Identify control failures, unintended outcomes, administrative work returned and new operating work created.
-6. Classify each solution as scale, remediate, pause or retire and respond to the supplied incident.
-7. Create a 90-day roadmap with decision gates, accountable owners and retirement paths.
-8. Present a three-minute executive recommendation and answer peer challenge questions.
+1. Review the role outcomes, employee aspirations and synthetic performance evidence.
+2. Separate observed capability, self-reported interest and unsupported inference.
+3. Ask Copilot to map evidenced gaps to approved learning and stretch options.
+4. Draft a 90-day plan with milestones, practice and manager support.
+5. Create a bounded Agent Builder agent over approved learning resources.
+6. Add instructions for explainable recommendations, consent and escalation.
+7. Test irrelevant, inaccessible and sensitive development requests.
+8. Record employee corrections, manager approval and follow-up reminders.
 
 ## Prompt scaffold
 
-> You are supporting the HarbourLight Logistics SG training case. Use only the supplied synthetic evidence. Your task is to use lifecycle, service, risk, adoption and human-value evidence to govern the full hr ai operating system. State assumptions; cite record IDs or approved source sections; separate observation from inference; flag missing information; list the human checks and approvals required before use.
+> You are supporting the HarbourLight Logistics SG training case. Use only the supplied synthetic evidence. Your task is to use copilot and a bounded development agent to identify evidence-based skill gaps, prepare learning options and automate routine follow-up. State assumptions; cite record IDs or approved source sections; separate observation from inference; flag missing information; list the human checks and approvals required before use.
 
 ## Evidence checklist
 
-- [ ] End-to-end HR AI service map
-- [ ] Agent scorecard and incident response
-- [ ] 90-day roadmap and executive recommendation
+- [ ] Skills evidence summary
+- [ ] 90-day development plan
+- [ ] Development-agent instructions and tests
 - [ ] Evidence workbook records the input/source, prompt or decision, output, verification, revision and owner.
 - [ ] A peer or trainer can reproduce the reasoning from the saved evidence.
 
 ## Acceptance criteria
 
-- No scale without control thresholds
-- Employee feedback included
-- Named owner and retirement path
+- Employee can correct the skills record
+- No deterministic potential ranking
+- Manager and employee choose the final plan
 - The output is accurate, traceable, usable and explicit about uncertainty.
 - Consequential decisions and actions remain with an authorised human.
 
 ## Scenario questions
 
-1. Which metric looked good but hid harm?
-2. What evidence justifies scale?
-3. How will the organisation retire an agent safely?
+1. How can the employee challenge the skills profile?
+2. What would make a recommendation explainable?
+3. Which development decision should never be automated?
 
 ## Submission naming
 
-`A12-<YourName>-Evidence.xlsx` plus the listed deliverables.
+`A06-<YourName>-Evidence.xlsx` plus the listed deliverables.
 
 ## Source anchors
 
@@ -74,7 +74,7 @@ Use `mock-data.csv` or the **Mock Data** sheet in `Activity-12-Evidence-Workbook
 
 ## Recommended team roles and timing
 
-- **HR process owner:** confirms that the output solves the stated capstone: operate the hr agent control room outcome and remains consistent with approved policy.
+- **HR process owner:** confirms that the output solves the stated create a personalised talent development journey outcome and remains consistent with approved policy.
 - **AI operator or maker:** records the exact prompt, instructions, knowledge sources, tool choices and revisions.
 - **Reviewer or approver:** independently checks evidence, permissions, fairness, privacy and any consequential action.
 - **Evidence recorder:** keeps the workbook complete enough for another person to reproduce the reasoning.

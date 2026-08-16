@@ -1,0 +1,9 @@
+task_id,journey_stage,task,owner,due_offset_days,system,status
+ONB-01,Pre-boarding,Confirm personal details,HR Operations,-7,HRIS sandbox,Not started
+ONB-02,Pre-boarding,Order laptop and access,IT Service,-5,Service desk mock,Not started
+ONB-03,Day 1,Safety orientation,Safety Lead,0,Teams,Not started
+ONB-04,Day 1,Manager welcome and outcomes,Hiring Manager,0,Teams,Not started
+ONB-05,Week 1,Role systems training,Process Owner,3,Learning catalogue,Not started
+ONB-06,Week 1,Network introductions,Hiring Manager,5,Teams,Not started
+ONB-07,Days 8-30,First dashboard practice,Mentor,14,SharePoint,Not started
+ONB-08,Days 8-30,New-joiner feedback pulse,HR Partner,25,Forms mock,Not started

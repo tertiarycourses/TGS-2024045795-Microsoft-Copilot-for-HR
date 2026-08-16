@@ -1,14 +1,16 @@
-.DS_Store
+# Local configuration and credentials
 .env
-courseware/.env
-reference/
-assessment/
-.claude/
+.env.*
+
+# WSQ assessment materials are confidential
+/assessment/
+/assessment\ /
+
+# Third-party reference material is not republished
+**/reference/
+
+# Rebuildable archives and QA/build working files
+*.zip
+qa-*/
 courseware/build/
 courseware/assets/
-courseware/archive/
-qa-render/
-tmp/
-*.lock
-~$*
-

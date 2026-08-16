@@ -1,7 +1,7 @@
 # Source and Coverage Register
 
 Course: **TGS-2024045795 — Agentic AI for HR**  
-Version: **6.0**  
+Version: **6.2**  
 Reviewed: **16 August 2026**
 
 The course preserves the useful HR-lifecycle coverage of the supplied v5 trainer deck, while replacing the old generative-AI-only framing with a clear capability boundary: Microsoft 365 Copilot for human-directed generation and analysis; Agent Builder or Microsoft Copilot Studio for bounded agents, tools and workflows.
@@ -32,19 +32,24 @@ The course preserves the useful HR-lifecycle coverage of the supplied v5 trainer
 | [Microsoft — onboarding and development scenario](https://adoption.microsoft.com/en-us/scenario-library/human-resources/improve-onboarding-and-development-processes-copilot-studio/) | Policy summarisation, network identification, personalised onboarding and agent creation | Reviewed |
 | [Singapore PDPC — Model AI Governance Framework](https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework) | Human-centric, transparent, explainable and fair AI; governance, involvement, operations and communication | Reviewed |
 | [Singapore MOM — Fair Consideration Framework](https://www.mom.gov.sg/employment-practices/fair-consideration-framework) | Fair consideration and prohibition of non-job-related discriminatory hiring criteria | Reviewed |
+| [Tertiary Exams practice platform](https://exams.tertiaryinfotech.com/) | Optional practice access surfaced in the assessment-readiness visual; actual WSQ assessment remains on the LMS | Reviewed |
+| Deloitte — *The Future of HR, Powered by AI* (user-supplied reference deck) | HR pain and urgency, automate/augment/extend/create shifts, AI-assisted to AI-powered evolution, AI-powered operating model and enterprise value | Reviewed from local reference |
+| *AI Revolution in Human Resources: Transforming HR Management with Artificial Intelligence* (2023 user-supplied ebook) | Recruitment, employee experience, talent analytics, wellness, performance, technology integration, implementation patterns and four secondary-source case vignettes | Reviewed from local reference |
 
 ## Cross-artifact coverage
 
 | Requirement | Slides | Learner Guide | Activities | Assessment |
 |---|---:|---:|---:|---:|
-| Generative AI using Microsoft 365 Copilot | Yes | Detailed procedures | Activities 1–6, 10, 12 | K1–K2, A1–A2 |
-| Agentic AI using Agent Builder / Copilot Studio | Yes | Detailed procedures | Activities 7–9, 11–12 | K1, K3, A1, A3–A5 |
-| Recruitment and resume screening | Yes | Yes | Activities 2 and 4 | K2, A2 |
-| HR policy | Yes | Yes | Activities 5 and 7 | K2–K4, A4 |
-| Onboarding | Yes | Yes | Activities 6 and 8 | K2–K3, A1 |
-| Leave applications | Yes | Yes | Activity 9 | K3–K4, A3 |
-| Broader HR lifecycle | Yes | Yes | Activities 1–3, 10–12 | K2, K5, A5 |
+| Core value message: less administration, higher productivity and more strategic HR capacity | Opening sequence and closing synthesis | Dedicated course-message table and facilitation prompts | Evidenced and debriefed in Activities 1–12 | K1–K3, A1–A5 |
+| Generative AI using Microsoft 365 Copilot | Yes | Detailed procedures | Activities 1–4, 6–7, 10 and 12 | K1–K2, A1–A2 |
+| Agentic AI using Agent Builder / Copilot Studio | Yes | Detailed procedures | Activities 5–9 and 11; governed portfolio in 12 | K1, K3, A1, A3–A5 |
+| Talent needs and job description | Yes | Yes | Activities 1–2 | K2–K3, A1 |
+| Resume screening and structured interviewing | Yes | Yes | Activities 3–4 | K2, K4, A2 |
+| Onboarding and talent development | Yes | Yes | Activities 5–6 | K2–K3, A1 |
+| HR policy | Yes | Yes | Activity 7 | K2–K4, A4 |
+| Leave applications and benefits | Yes | Yes | Activities 8–9 | K3–K4, A3 |
+| Wellness and offboarding | Yes | Yes | Activities 10–11 | K2, K4–K5, A4–A5 |
+| Full-lifecycle HR agent operations | Yes | Yes | Activity 12 | K3–K5, A3–A5 |
 | Legal, ethical, privacy, security and fairness | Yes | Yes | Embedded in every activity | K4–K5, A2–A5 |
 
-No production employee data or real-company claims are used in the activities. HarbourLight Logistics SG is a fictional, realistic training organisation.
-
+No production employee data are used in the activities. HarbourLight Logistics SG and all learner records are fictional. The four unnamed implementation vignettes are explicitly presented as secondary-source examples from the supplied ebook rather than independently verified company identities.

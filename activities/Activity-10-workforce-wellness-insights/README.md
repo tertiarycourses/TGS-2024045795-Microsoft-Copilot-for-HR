@@ -1,71 +1,71 @@
-# Activity 12: Capstone: Operate the HR Agent Control Room
+# Activity 10: Use AI for Workforce Wellness Insights
 
 > **Synthetic learning case:** Do not upload live employee or candidate data.
 
 ## Scenario
 
-HarbourLight now uses generative AI and agents across talent planning, hiring, onboarding, development, policy, leave, benefits, wellness and offboarding. Leaders must decide what to scale, remediate, pause or retire.
+HarbourLight has pulse surveys, absence patterns and workload data, but HR spends days combining them. Leaders want early signals without monitoring or diagnosing individuals.
 
 ## Learning goal
 
-Use lifecycle, service, risk, adoption and human-value evidence to govern the full HR AI operating system.
+Use Copilot to analyse aggregated wellness evidence, identify organisational questions and prepare human-led interventions.
 
 ## Microsoft tools
 
-- Excel
+- Excel with Microsoft 365 Copilot
 - Teams
-- Microsoft 365 Copilot
+- Word
 
 ## Supplied mock data
 
-Use `mock-data.csv` or the **Mock Data** sheet in `Activity-12-Evidence-Workbook.xlsx`. The records are specific to this scenario and carry forward the HarbourLight case.
+Use `mock-data.csv` or the **Mock Data** sheet in `Activity-10-Evidence-Workbook.xlsx`. The records are specific to this scenario and carry forward the HarbourLight case.
 
 ## Guardrails
 
-- No scale without control thresholds
-- Employee feedback included
-- Named owner and retirement path
+- Aggregate and minimise personal data
+- No diagnosis or individual risk scoring
+- Employees have a clear human support route
 
 ## Detailed procedure
 
-1. Map every activity from talent need to offboarding and identify hand-offs between Copilot, agents, flows and humans.
-2. Review the synthetic cycle-time, quality, adoption, escalation, incident and feedback evidence.
-3. Validate denominator, baseline, target and trend for each metric.
-4. Ask Copilot to summarise evidence with cell references and explicit limitations.
-5. Identify control failures, unintended outcomes, administrative work returned and new operating work created.
-6. Classify each solution as scale, remediate, pause or retire and respond to the supplied incident.
-7. Create a 90-day roadmap with decision gates, accountable owners and retirement paths.
-8. Present a three-minute executive recommendation and answer peer challenge questions.
+1. Review the synthetic aggregated survey, workload and absence tables.
+2. Check denominators, missing groups, small samples and data quality.
+3. Ask Copilot to identify patterns with cell references and uncertainty.
+4. Separate correlation, employee voice and unsupported causal claims.
+5. Create organisational hypotheses about workload, support and work design.
+6. Draft options such as manager support, process redesign and voluntary resources.
+7. Run privacy, stigma, fairness and communication checks.
+8. Record the human owner, feedback route and measures for evaluating the intervention.
 
 ## Prompt scaffold
 
-> You are supporting the HarbourLight Logistics SG training case. Use only the supplied synthetic evidence. Your task is to use lifecycle, service, risk, adoption and human-value evidence to govern the full hr ai operating system. State assumptions; cite record IDs or approved source sections; separate observation from inference; flag missing information; list the human checks and approvals required before use.
+> You are supporting the HarbourLight Logistics SG training case. Use only the supplied synthetic evidence. Your task is to use copilot to analyse aggregated wellness evidence, identify organisational questions and prepare human-led interventions. State assumptions; cite record IDs or approved source sections; separate observation from inference; flag missing information; list the human checks and approvals required before use.
 
 ## Evidence checklist
 
-- [ ] End-to-end HR AI service map
-- [ ] Agent scorecard and incident response
-- [ ] 90-day roadmap and executive recommendation
+- [ ] Aggregated wellness dashboard brief
+- [ ] Evidence-and-limitation log
+- [ ] Human-led intervention proposal
 - [ ] Evidence workbook records the input/source, prompt or decision, output, verification, revision and owner.
 - [ ] A peer or trainer can reproduce the reasoning from the saved evidence.
 
 ## Acceptance criteria
 
-- No scale without control thresholds
-- Employee feedback included
-- Named owner and retirement path
+- Aggregate and minimise personal data
+- No diagnosis or individual risk scoring
+- Employees have a clear human support route
 - The output is accurate, traceable, usable and explicit about uncertainty.
 - Consequential decisions and actions remain with an authorised human.
 
 ## Scenario questions
 
-1. Which metric looked good but hid harm?
-2. What evidence justifies scale?
-3. How will the organisation retire an agent safely?
+1. Which attractive insight is not safe to act on?
+2. How does aggregation reduce but not eliminate privacy risk?
+3. What response supports people without surveillance?
 
 ## Submission naming
 
-`A12-<YourName>-Evidence.xlsx` plus the listed deliverables.
+`A10-<YourName>-Evidence.xlsx` plus the listed deliverables.
 
 ## Source anchors
 
@@ -74,7 +74,7 @@ Use `mock-data.csv` or the **Mock Data** sheet in `Activity-12-Evidence-Workbook
 
 ## Recommended team roles and timing
 
-- **HR process owner:** confirms that the output solves the stated capstone: operate the hr agent control room outcome and remains consistent with approved policy.
+- **HR process owner:** confirms that the output solves the stated use ai for workforce wellness insights outcome and remains consistent with approved policy.
 - **AI operator or maker:** records the exact prompt, instructions, knowledge sources, tool choices and revisions.
 - **Reviewer or approver:** independently checks evidence, permissions, fairness, privacy and any consequential action.
 - **Evidence recorder:** keeps the workbook complete enough for another person to reproduce the reasoning.

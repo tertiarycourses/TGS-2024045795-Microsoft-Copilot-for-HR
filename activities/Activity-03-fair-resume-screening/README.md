@@ -1,71 +1,70 @@
-# Activity 12: Capstone: Operate the HR Agent Control Room
+# Activity 3: Screen Resumes with a Fair Evidence Matrix
 
 > **Synthetic learning case:** Do not upload live employee or candidate data.
 
 ## Scenario
 
-HarbourLight now uses generative AI and agents across talent planning, hiring, onboarding, development, policy, leave, benefits, wellness and offboarding. Leaders must decide what to scale, remediate, pause or retire.
+Six synthetic candidates apply for the Workforce Operations Analyst role from Activity 2. Recruiters currently scan resumes inconsistently and retype evidence into spreadsheets.
 
 ## Learning goal
 
-Use lifecycle, service, risk, adoption and human-value evidence to govern the full HR AI operating system.
+Use Microsoft 365 Copilot to extract job-related evidence at speed while keeping shortlist decisions human, traceable and reviewable.
 
 ## Microsoft tools
 
-- Excel
-- Teams
-- Microsoft 365 Copilot
+- Excel with Microsoft 365 Copilot
+- Word
 
 ## Supplied mock data
 
-Use `mock-data.csv` or the **Mock Data** sheet in `Activity-12-Evidence-Workbook.xlsx`. The records are specific to this scenario and carry forward the HarbourLight case.
+Use `mock-data.csv` or the **Mock Data** sheet in `Activity-03-Evidence-Workbook.xlsx`. The records are specific to this scenario and carry forward the HarbourLight case.
 
 ## Guardrails
 
-- No scale without control thresholds
-- Employee feedback included
-- Named owner and retirement path
+- Synthetic resumes only
+- Protected attributes and proxies excluded
+- AI may organise evidence but cannot reject a candidate
 
 ## Detailed procedure
 
-1. Map every activity from talent need to offboarding and identify hand-offs between Copilot, agents, flows and humans.
-2. Review the synthetic cycle-time, quality, adoption, escalation, incident and feedback evidence.
-3. Validate denominator, baseline, target and trend for each metric.
-4. Ask Copilot to summarise evidence with cell references and explicit limitations.
-5. Identify control failures, unintended outcomes, administrative work returned and new operating work created.
-6. Classify each solution as scale, remediate, pause or retire and respond to the supplied incident.
-7. Create a 90-day roadmap with decision gates, accountable owners and retirement paths.
-8. Present a three-minute executive recommendation and answer peer challenge questions.
+1. Load the approved JD and anchored rubric from Activity 2 or use the supplied fallback rubric.
+2. Review the six synthetic resumes without adding new criteria.
+3. Prompt Copilot to extract evidence for each criterion and mark missing information as unknown.
+4. Verify every extracted item against the source resume.
+5. Calculate rubric results using transparent workbook formulas.
+6. Check for proxy variables, inconsistent standards and false negative risk.
+7. Record the authorised recruiter's shortlist decision separately from AI output.
+8. Pass the shortlisted evidence and unresolved questions to Activity 4.
 
 ## Prompt scaffold
 
-> You are supporting the HarbourLight Logistics SG training case. Use only the supplied synthetic evidence. Your task is to use lifecycle, service, risk, adoption and human-value evidence to govern the full hr ai operating system. State assumptions; cite record IDs or approved source sections; separate observation from inference; flag missing information; list the human checks and approvals required before use.
+> You are supporting the HarbourLight Logistics SG training case. Use only the supplied synthetic evidence. Your task is to use microsoft 365 copilot to extract job-related evidence at speed while keeping shortlist decisions human, traceable and reviewable. State assumptions; cite record IDs or approved source sections; separate observation from inference; flag missing information; list the human checks and approvals required before use.
 
 ## Evidence checklist
 
-- [ ] End-to-end HR AI service map
-- [ ] Agent scorecard and incident response
-- [ ] 90-day roadmap and executive recommendation
+- [ ] Candidate evidence matrix
+- [ ] Uncertainty and bias log
+- [ ] Human shortlist rationale
 - [ ] Evidence workbook records the input/source, prompt or decision, output, verification, revision and owner.
 - [ ] A peer or trainer can reproduce the reasoning from the saved evidence.
 
 ## Acceptance criteria
 
-- No scale without control thresholds
-- Employee feedback included
-- Named owner and retirement path
+- Synthetic resumes only
+- Protected attributes and proxies excluded
+- AI may organise evidence but cannot reject a candidate
 - The output is accurate, traceable, usable and explicit about uncertainty.
 - Consequential decisions and actions remain with an authorised human.
 
 ## Scenario questions
 
-1. Which metric looked good but hid harm?
-2. What evidence justifies scale?
-3. How will the organisation retire an agent safely?
+1. Where could absence of evidence become an unfair negative assumption?
+2. How can a candidate challenge or correct the evidence?
+3. Which screening error creates the greatest harm?
 
 ## Submission naming
 
-`A12-<YourName>-Evidence.xlsx` plus the listed deliverables.
+`A03-<YourName>-Evidence.xlsx` plus the listed deliverables.
 
 ## Source anchors
 
@@ -74,7 +73,7 @@ Use `mock-data.csv` or the **Mock Data** sheet in `Activity-12-Evidence-Workbook
 
 ## Recommended team roles and timing
 
-- **HR process owner:** confirms that the output solves the stated capstone: operate the hr agent control room outcome and remains consistent with approved policy.
+- **HR process owner:** confirms that the output solves the stated screen resumes with a fair evidence matrix outcome and remains consistent with approved policy.
 - **AI operator or maker:** records the exact prompt, instructions, knowledge sources, tool choices and revisions.
 - **Reviewer or approver:** independently checks evidence, permissions, fairness, privacy and any consequential action.
 - **Evidence recorder:** keeps the workbook complete enough for another person to reproduce the reasoning.

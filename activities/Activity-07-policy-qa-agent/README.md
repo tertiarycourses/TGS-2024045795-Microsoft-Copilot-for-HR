@@ -1,63 +1,68 @@
-# Activity 7: Build an HR Policy Q&A Agent
+# Activity 7: Draft and Operate an HR Policy Agent
 
 > **Synthetic learning case:** Do not upload live employee or candidate data.
 
 ## Scenario
 
-Employees ask repetitive hybrid-work and benefits questions in Teams. HR needs a reliable self-service front door that cites policy and escalates exceptions.
+Hybrid-work and conduct guidance exists in conflicting files. HR repeatedly answers the same questions and managers sometimes apply outdated rules.
 
 ## Learning goal
 
-Create a bounded policy agent in Agent Builder for Microsoft 365 Copilot and test grounded answers.
+Use Word Copilot to reconcile a controlled policy draft, then build an Agent Builder policy Q&A agent that cites the approved version.
 
 ## Microsoft tools
 
+- Word with Microsoft 365 Copilot
 - Agent Builder in Microsoft 365 Copilot
 - SharePoint
 - Teams
 
+## Supplied mock data
+
+Use `mock-data.csv` or the **Mock Data** sheet in `Activity-07-Evidence-Workbook.xlsx`. The records are specific to this scenario and carry forward the HarbourLight case.
+
 ## Guardrails
 
-- Cite approved policy
-- No personalised entitlement decisions
-- Escalate ambiguity and sensitive cases
+- Policy owner approves meaning
+- Answers cite effective policy
+- Ambiguous and sensitive cases escalate
 
 ## Detailed procedure
 
-1. Define the audience, in-scope intents and explicit exclusions.
-2. Select the approved synthetic policy knowledge files.
-3. Write instructions for citation, effective date, clarification, refusal and escalation.
-4. Create the agent in Agent Builder and add the knowledge sources.
-5. Add conversation starters for common employee intents.
-6. Run normal, ambiguous, outdated-policy and sensitive-personal-case tests.
-7. Record answer, citation, pass/fail and corrective action.
-8. Share only with the test group after the policy owner approves.
+1. Compare the supplied policy extracts and identify conflicts, gaps and obsolete wording.
+2. Confirm the authoritative rule hierarchy with the scenario brief.
+3. Use Word Copilot to prepare a plain-language controlled draft.
+4. Record approval, effective date, superseded versions and communication plan.
+5. Create the Agent Builder purpose, knowledge and response boundaries.
+6. Require citations, effective dates, clarification, refusal and escalation.
+7. Test normal, ambiguous, outdated-policy and personal-exception questions.
+8. Record administrative time saved and the new monitoring workload.
 
 ## Prompt scaffold
 
-> You are supporting the HarbourLight Logistics SG training case. Use only the supplied synthetic evidence. Your task is to create a bounded policy agent in agent builder for microsoft 365 copilot and test grounded answers. State assumptions; cite record IDs or approved source sections; separate observation from inference; flag missing information; list the human checks and approvals required before use.
+> You are supporting the HarbourLight Logistics SG training case. Use only the supplied synthetic evidence. Your task is to use word copilot to reconcile a controlled policy draft, then build an agent builder policy q&a agent that cites the approved version. State assumptions; cite record IDs or approved source sections; separate observation from inference; flag missing information; list the human checks and approvals required before use.
 
 ## Evidence checklist
 
-- [ ] Agent purpose and instructions
-- [ ] Knowledge map
+- [ ] Conflict register and policy draft
+- [ ] Agent instructions and knowledge map
 - [ ] 12-case test report
 - [ ] Evidence workbook records the input/source, prompt or decision, output, verification, revision and owner.
 - [ ] A peer or trainer can reproduce the reasoning from the saved evidence.
 
 ## Acceptance criteria
 
-- Cite approved policy
-- No personalised entitlement decisions
-- Escalate ambiguity and sensitive cases
+- Policy owner approves meaning
+- Answers cite effective policy
+- Ambiguous and sensitive cases escalate
 - The output is accurate, traceable, usable and explicit about uncertainty.
 - Consequential decisions and actions remain with an authorised human.
 
 ## Scenario questions
 
-1. What makes an answer grounded rather than merely plausible?
-2. When should the agent stop answering?
-3. What new operating work does this agent create?
+1. What makes an answer grounded rather than plausible?
+2. Which exception requires a policy owner instead of an agent?
+3. What operating work is created when self-service is introduced?
 
 ## Submission naming
 
@@ -70,7 +75,7 @@ Create a bounded policy agent in Agent Builder for Microsoft 365 Copilot and tes
 
 ## Recommended team roles and timing
 
-- **HR process owner:** confirms that the output solves the stated build an hr policy q&a agent outcome and remains consistent with approved policy.
+- **HR process owner:** confirms that the output solves the stated draft and operate an hr policy agent outcome and remains consistent with approved policy.
 - **AI operator or maker:** records the exact prompt, instructions, knowledge sources, tool choices and revisions.
 - **Reviewer or approver:** independently checks evidence, permissions, fairness, privacy and any consequential action.
 - **Evidence recorder:** keeps the workbook complete enough for another person to reproduce the reasoning.

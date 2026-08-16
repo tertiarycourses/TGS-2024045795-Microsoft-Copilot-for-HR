@@ -1,71 +1,72 @@
-# Activity 12: Capstone: Operate the HR Agent Control Room
+# Activity 9: Build a Benefits Self-Service Agent
 
 > **Synthetic learning case:** Do not upload live employee or candidate data.
 
 ## Scenario
 
-HarbourLight now uses generative AI and agents across talent planning, hiring, onboarding, development, policy, leave, benefits, wellness and offboarding. Leaders must decide what to scale, remediate, pause or retire.
+HR answers repetitive benefits questions by email and manually checks plan documents. Employees need fast information, but personal eligibility and claims require authenticated data and specialist review.
 
 ## Learning goal
 
-Use lifecycle, service, risk, adoption and human-value evidence to govern the full HR AI operating system.
+Design a benefits agent that answers grounded general questions, retrieves authorised status and escalates consequential or sensitive cases.
 
 ## Microsoft tools
 
-- Excel
+- Microsoft Copilot Studio
+- SharePoint
 - Teams
-- Microsoft 365 Copilot
+- HRIS sandbox or mock connector
 
 ## Supplied mock data
 
-Use `mock-data.csv` or the **Mock Data** sheet in `Activity-12-Evidence-Workbook.xlsx`. The records are specific to this scenario and carry forward the HarbourLight case.
+Use `mock-data.csv` or the **Mock Data** sheet in `Activity-09-Evidence-Workbook.xlsx`. The records are specific to this scenario and carry forward the HarbourLight case.
 
 ## Guardrails
 
-- No scale without control thresholds
-- Employee feedback included
-- Named owner and retirement path
+- General answers cite approved plan documents
+- Personal requests require authentication
+- No medical, legal or final entitlement advice
 
 ## Detailed procedure
 
-1. Map every activity from talent need to offboarding and identify hand-offs between Copilot, agents, flows and humans.
-2. Review the synthetic cycle-time, quality, adoption, escalation, incident and feedback evidence.
-3. Validate denominator, baseline, target and trend for each metric.
-4. Ask Copilot to summarise evidence with cell references and explicit limitations.
-5. Identify control failures, unintended outcomes, administrative work returned and new operating work created.
-6. Classify each solution as scale, remediate, pause or retire and respond to the supplied incident.
-7. Create a 90-day roadmap with decision gates, accountable owners and retirement paths.
-8. Present a three-minute executive recommendation and answer peer challenge questions.
+1. Classify the supplied benefits intents as answer, retrieve, transact or escalate.
+2. Map the minimum knowledge and personal data needed for each intent.
+3. Create grounded responses for general coverage and enrolment questions.
+4. Design an authenticated tool for personal status retrieval using least privilege.
+5. Add refusal and escalation patterns for claims disputes, medical details and ambiguous eligibility.
+6. Test cross-employee data leakage, prompt injection, outdated plans and connector failure.
+7. Record resolution, citation, escalation and employee feedback.
+8. Estimate first-contact resolution and HR administrative time returned.
 
 ## Prompt scaffold
 
-> You are supporting the HarbourLight Logistics SG training case. Use only the supplied synthetic evidence. Your task is to use lifecycle, service, risk, adoption and human-value evidence to govern the full hr ai operating system. State assumptions; cite record IDs or approved source sections; separate observation from inference; flag missing information; list the human checks and approvals required before use.
+> You are supporting the HarbourLight Logistics SG training case. Use only the supplied synthetic evidence. Your task is to design a benefits agent that answers grounded general questions, retrieves authorised status and escalates consequential or sensitive cases. State assumptions; cite record IDs or approved source sections; separate observation from inference; flag missing information; list the human checks and approvals required before use.
 
 ## Evidence checklist
 
-- [ ] End-to-end HR AI service map
-- [ ] Agent scorecard and incident response
-- [ ] 90-day roadmap and executive recommendation
+- [ ] Benefits intent-and-risk catalogue
+- [ ] Knowledge and tool design
+- [ ] Privacy and regression test report
 - [ ] Evidence workbook records the input/source, prompt or decision, output, verification, revision and owner.
 - [ ] A peer or trainer can reproduce the reasoning from the saved evidence.
 
 ## Acceptance criteria
 
-- No scale without control thresholds
-- Employee feedback included
-- Named owner and retirement path
+- General answers cite approved plan documents
+- Personal requests require authentication
+- No medical, legal or final entitlement advice
 - The output is accurate, traceable, usable and explicit about uncertainty.
 - Consequential decisions and actions remain with an authorised human.
 
 ## Scenario questions
 
-1. Which metric looked good but hid harm?
-2. What evidence justifies scale?
-3. How will the organisation retire an agent safely?
+1. Why should one conversational front door not have one permission set?
+2. Which benefits question requires immediate human review?
+3. How will employees know the source and effective date of an answer?
 
 ## Submission naming
 
-`A12-<YourName>-Evidence.xlsx` plus the listed deliverables.
+`A09-<YourName>-Evidence.xlsx` plus the listed deliverables.
 
 ## Source anchors
 
@@ -74,7 +75,7 @@ Use `mock-data.csv` or the **Mock Data** sheet in `Activity-12-Evidence-Workbook
 
 ## Recommended team roles and timing
 
-- **HR process owner:** confirms that the output solves the stated capstone: operate the hr agent control room outcome and remains consistent with approved policy.
+- **HR process owner:** confirms that the output solves the stated build a benefits self-service agent outcome and remains consistent with approved policy.
 - **AI operator or maker:** records the exact prompt, instructions, knowledge sources, tool choices and revisions.
 - **Reviewer or approver:** independently checks evidence, permissions, fairness, privacy and any consequential action.
 - **Evidence recorder:** keeps the workbook complete enough for another person to reproduce the reasoning.

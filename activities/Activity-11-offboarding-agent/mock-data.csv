@@ -1,0 +1,9 @@
+task_id,offboarding_outcome,owner,due_offset_days,approval_required,system,status,failure_test
+OFF-01,Confirm exit event and date,HR Partner,-14,HR Manager,HRIS sandbox,Open,Cancelled exit
+OFF-02,Agree knowledge transfer,Line Manager,-10,Employee,SharePoint,Open,Missing handover owner
+OFF-03,Confirm asset inventory,Facilities,-5,Facilities Lead,Asset register mock,Open,Missing laptop
+OFF-04,Calculate final pay,Payroll,-3,Payroll Lead,Payroll sandbox,Open,Incorrect balance
+OFF-05,Schedule access removal,IT Security,0,HR + Manager,Identity sandbox,Open,Early removal
+OFF-06,Provide benefits continuation information,HR Operations,0,HR Partner,Benefits plan,Open,Outdated plan
+OFF-07,Send respectful exit communication,Manager,1,HR Partner,Outlook,Open,Sensitive reason exposed
+OFF-08,Close records and retention tasks,Records Owner,7,Compliance,Records register,Open,Over-retention

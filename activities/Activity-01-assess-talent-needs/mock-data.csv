@@ -1,0 +1,6 @@
+period,forecast_orders,overtime_hours,open_roles,current_analysts,forecast_growth_pct,source_note
+2026-Q1,42000,820,4,2,8,Synthetic operations forecast
+2026-Q2,46800,1010,5,2,11,Synthetic operations forecast
+2026-Q3,53500,1380,7,2,14,New hub scenario
+2026-Q4,58100,1520,8,3,9,New hub scenario
+2027-Q1,62000,1690,9,3,7,Planning assumption

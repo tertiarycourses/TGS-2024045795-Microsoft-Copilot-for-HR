@@ -1,0 +1,7 @@
+employee_id,role_outcome,evidence_level_1_5,employee_interest,approved_learning,manager_support,consent_status
+EMP-101,Demand analysis,3,Advanced forecasting,Forecasting fundamentals,Weekly practice dataset,Confirmed
+EMP-101,Stakeholder communication,4,Facilitation,Facilitation clinic,Shadow hub review,Confirmed
+EMP-204,Dashboard quality,2,Power BI,Dashboard design pathway,Peer review time,Confirmed
+EMP-204,Workforce planning,3,Scenario modelling,Workforce planning essentials,Monthly coaching,Confirmed
+EMP-318,Process automation,2,Power Automate,Workflow foundations,Sandbox access,Pending
+EMP-318,Data governance,3,Data stewardship,HR data controls,Data-owner mentoring,Confirmed

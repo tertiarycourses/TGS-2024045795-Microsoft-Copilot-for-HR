@@ -1,71 +1,72 @@
-# Activity 12: Capstone: Operate the HR Agent Control Room
+# Activity 5: Automate Onboarding Coordination
 
 > **Synthetic learning case:** Do not upload live employee or candidate data.
 
 ## Scenario
 
-HarbourLight now uses generative AI and agents across talent planning, hiring, onboarding, development, policy, leave, benefits, wellness and offboarding. Leaders must decide what to scale, remediate, pause or retire.
+A selected synthetic candidate joins HarbourLight as the Workforce Operations Analyst. Equipment, access, safety training and manager check-ins are currently coordinated through emails and spreadsheets, causing missed tasks and repeated follow-up.
 
 ## Learning goal
 
-Use lifecycle, service, risk, adoption and human-value evidence to govern the full HR AI operating system.
+Design a Copilot Studio onboarding agent that coordinates routine work while retaining accountable task owners and human confirmation.
 
 ## Microsoft tools
 
-- Excel
+- Microsoft Copilot Studio
 - Teams
-- Microsoft 365 Copilot
+- SharePoint
+- Power Automate or agent flows
 
 ## Supplied mock data
 
-Use `mock-data.csv` or the **Mock Data** sheet in `Activity-12-Evidence-Workbook.xlsx`. The records are specific to this scenario and carry forward the HarbourLight case.
+Use `mock-data.csv` or the **Mock Data** sheet in `Activity-05-Evidence-Workbook.xlsx`. The records are specific to this scenario and carry forward the HarbourLight case.
 
 ## Guardrails
 
-- No scale without control thresholds
-- Employee feedback included
-- Named owner and retirement path
+- Use approved role and policy data
+- Least-privilege connectors
+- A human owner confirms every completion
 
 ## Detailed procedure
 
-1. Map every activity from talent need to offboarding and identify hand-offs between Copilot, agents, flows and humans.
-2. Review the synthetic cycle-time, quality, adoption, escalation, incident and feedback evidence.
-3. Validate denominator, baseline, target and trend for each metric.
-4. Ask Copilot to summarise evidence with cell references and explicit limitations.
-5. Identify control failures, unintended outcomes, administrative work returned and new operating work created.
-6. Classify each solution as scale, remediate, pause or retire and respond to the supplied incident.
-7. Create a 90-day roadmap with decision gates, accountable owners and retirement paths.
-8. Present a three-minute executive recommendation and answer peer challenge questions.
+1. Map the Day 1, Week 1 and Days 8–30 employee outcomes.
+2. Separate informational answers, recommendations and transactional tasks.
+3. Use Copilot to draft a role-specific journey from approved JD and policy sources.
+4. Create the agent purpose, instructions, knowledge and escalation boundaries.
+5. Design deterministic tools for task creation, reminders and status retrieval.
+6. Require human confirmation before closing access, equipment or safety tasks.
+7. Test normal, missing-manager, late-equipment and confidential-question scenarios.
+8. Record cycle-time reduction, exceptions and employee feedback for Activity 12.
 
 ## Prompt scaffold
 
-> You are supporting the HarbourLight Logistics SG training case. Use only the supplied synthetic evidence. Your task is to use lifecycle, service, risk, adoption and human-value evidence to govern the full hr ai operating system. State assumptions; cite record IDs or approved source sections; separate observation from inference; flag missing information; list the human checks and approvals required before use.
+> You are supporting the HarbourLight Logistics SG training case. Use only the supplied synthetic evidence. Your task is to design a copilot studio onboarding agent that coordinates routine work while retaining accountable task owners and human confirmation. State assumptions; cite record IDs or approved source sections; separate observation from inference; flag missing information; list the human checks and approvals required before use.
 
 ## Evidence checklist
 
-- [ ] End-to-end HR AI service map
-- [ ] Agent scorecard and incident response
-- [ ] 90-day roadmap and executive recommendation
+- [ ] 30-day journey
+- [ ] Agent conversation and tool map
+- [ ] Onboarding test report
 - [ ] Evidence workbook records the input/source, prompt or decision, output, verification, revision and owner.
 - [ ] A peer or trainer can reproduce the reasoning from the saved evidence.
 
 ## Acceptance criteria
 
-- No scale without control thresholds
-- Employee feedback included
-- Named owner and retirement path
+- Use approved role and policy data
+- Least-privilege connectors
+- A human owner confirms every completion
 - The output is accurate, traceable, usable and explicit about uncertainty.
 - Consequential decisions and actions remain with an authorised human.
 
 ## Scenario questions
 
-1. Which metric looked good but hid harm?
-2. What evidence justifies scale?
-3. How will the organisation retire an agent safely?
+1. Which work is safely automated and which remains owned by a person?
+2. Where could duplicate tasks be created?
+3. What proves the new joiner is ready rather than the checklist merely complete?
 
 ## Submission naming
 
-`A12-<YourName>-Evidence.xlsx` plus the listed deliverables.
+`A05-<YourName>-Evidence.xlsx` plus the listed deliverables.
 
 ## Source anchors
 
@@ -74,7 +75,7 @@ Use `mock-data.csv` or the **Mock Data** sheet in `Activity-12-Evidence-Workbook
 
 ## Recommended team roles and timing
 
-- **HR process owner:** confirms that the output solves the stated capstone: operate the hr agent control room outcome and remains consistent with approved policy.
+- **HR process owner:** confirms that the output solves the stated automate onboarding coordination outcome and remains consistent with approved policy.
 - **AI operator or maker:** records the exact prompt, instructions, knowledge sources, tool choices and revisions.
 - **Reviewer or approver:** independently checks evidence, permissions, fairness, privacy and any consequential action.
 - **Evidence recorder:** keeps the workbook complete enough for another person to reproduce the reasoning.

@@ -1,0 +1,6 @@
+request_id,employee_id,leave_type,start_date,end_date,balance_days,overlap_flag,approver,request_status
+LV-001,EMP-101,Annual,2026-09-14,2026-09-16,8,No,MGR-12,Draft
+LV-002,EMP-204,Annual,2026-09-15,2026-09-19,3,No,MGR-08,Draft
+LV-003,EMP-318,Medical,2026-09-10,2026-09-10,12,No,MGR-08,Draft
+LV-004,EMP-101,Annual,2026-09-14,2026-09-16,8,Yes,MGR-12,Duplicate test
+LV-005,EMP-412,Caregiving,2026-10-02,2026-10-03,2,No,,Missing approver

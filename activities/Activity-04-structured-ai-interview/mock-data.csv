@@ -1,0 +1,7 @@
+candidate_id,question_id,job_outcome,evidence_excerpt,panel_score_1_5,panel_note
+CAND-01,Q1,Translate data into action,Rebuilt a weekly hub report and documented staffing changes,4,Verify scale and denominator
+CAND-01,Q2,Improve scheduling,Used demand peaks to propose shift coverage,4,Strong job-related example
+CAND-02,Q1,Translate data into action,Mapped delays and built a Power BI view,4,Clarify personal contribution
+CAND-02,Q2,Improve scheduling,Coordinated training around shift constraints,3,Indirect evidence
+CAND-03,Q1,Translate data into action,Analysed inventory exceptions using SQL,3,Good technique; workforce link weak
+CAND-03,Q2,Improve scheduling,Supported daily roster updates,3,Outcome not quantified

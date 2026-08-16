@@ -1,0 +1,10 @@
+solution,baseline_minutes,current_minutes,accuracy_pct,escalation_pct,employee_trust_1_5,open_incidents,owner,recommended_decision
+Talent needs Copilot,480,210,92,18,3.8,0,Workforce Planning Lead,Scale with data-quality gate
+JD Copilot,180,65,95,12,4.0,0,Talent Acquisition Lead,Scale
+Screening evidence,720,260,89,24,3.6,1,Recruitment Manager,Remediate fairness test
+Onboarding agent,360,120,91,21,4.1,0,Employee Experience Lead,Scale
+Policy agent,300,85,94,16,4.2,0,Policy Owner,Scale
+Leave agent,45,12,97,14,4.0,1,HR Operations Lead,Remediate duplicate control
+Benefits agent,55,18,90,31,3.7,0,Benefits Lead,Pilot longer
+Wellness insights,600,240,86,28,3.2,1,Wellbeing Lead,Pause privacy review
+Offboarding agent,420,150,93,19,4.0,0,HR Operations Lead,Scale with access rehearsal

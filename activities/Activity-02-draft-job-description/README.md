@@ -1,71 +1,70 @@
-# Activity 12: Capstone: Operate the HR Agent Control Room
+# Activity 2: Draft an Inclusive Job Description with Generative AI
 
 > **Synthetic learning case:** Do not upload live employee or candidate data.
 
 ## Scenario
 
-HarbourLight now uses generative AI and agents across talent planning, hiring, onboarding, development, policy, leave, benefits, wellness and offboarding. Leaders must decide what to scale, remediate, pause or retire.
+Activity 1 established a need for a Workforce Operations Analyst. The old JD is task-heavy, contains copied requirements and does not reflect the outcomes or skills needed at the new hub.
 
 ## Learning goal
 
-Use lifecycle, service, risk, adoption and human-value evidence to govern the full HR AI operating system.
+Use Word Copilot to draft a skills-based, inclusive and approval-ready job description grounded in the approved talent need.
 
 ## Microsoft tools
 
+- Word with Microsoft 365 Copilot
 - Excel
-- Teams
-- Microsoft 365 Copilot
 
 ## Supplied mock data
 
-Use `mock-data.csv` or the **Mock Data** sheet in `Activity-12-Evidence-Workbook.xlsx`. The records are specific to this scenario and carry forward the HarbourLight case.
+Use `mock-data.csv` or the **Mock Data** sheet in `Activity-02-Evidence-Workbook.xlsx`. The records are specific to this scenario and carry forward the HarbourLight case.
 
 ## Guardrails
 
-- No scale without control thresholds
-- Employee feedback included
-- Named owner and retirement path
+- Use job-related criteria only
+- Distinguish essential from trainable skills
+- Hiring manager and HR approve every requirement
 
 ## Detailed procedure
 
-1. Map every activity from talent need to offboarding and identify hand-offs between Copilot, agents, flows and humans.
-2. Review the synthetic cycle-time, quality, adoption, escalation, incident and feedback evidence.
-3. Validate denominator, baseline, target and trend for each metric.
-4. Ask Copilot to summarise evidence with cell references and explicit limitations.
-5. Identify control failures, unintended outcomes, administrative work returned and new operating work created.
-6. Classify each solution as scale, remediate, pause or retire and respond to the supplied incident.
-7. Create a 90-day roadmap with decision gates, accountable owners and retirement paths.
-8. Present a three-minute executive recommendation and answer peer challenge questions.
+1. Import the approved role outcomes and skills from Activity 1 or use the supplied fallback brief.
+2. Identify obsolete, vague or non-job-related requirements in the legacy JD.
+3. Prompt Copilot to draft purpose, outcomes, responsibilities and success measures.
+4. Separate essential capabilities from skills that can be developed after hiring.
+5. Add working conditions, reporting line and realistic candidate information.
+6. Run inclusive-language, accessibility and fair-consideration checks.
+7. Ask the hiring manager to validate each criterion and remove unsupported requirements.
+8. Convert the final JD criteria into the anchored screening rubric for Activity 3.
 
 ## Prompt scaffold
 
-> You are supporting the HarbourLight Logistics SG training case. Use only the supplied synthetic evidence. Your task is to use lifecycle, service, risk, adoption and human-value evidence to govern the full hr ai operating system. State assumptions; cite record IDs or approved source sections; separate observation from inference; flag missing information; list the human checks and approvals required before use.
+> You are supporting the HarbourLight Logistics SG training case. Use only the supplied synthetic evidence. Your task is to use word copilot to draft a skills-based, inclusive and approval-ready job description grounded in the approved talent need. State assumptions; cite record IDs or approved source sections; separate observation from inference; flag missing information; list the human checks and approvals required before use.
 
 ## Evidence checklist
 
-- [ ] End-to-end HR AI service map
-- [ ] Agent scorecard and incident response
-- [ ] 90-day roadmap and executive recommendation
+- [ ] Role-outcome map
+- [ ] Inclusive job description
+- [ ] Hiring-manager validation checklist
 - [ ] Evidence workbook records the input/source, prompt or decision, output, verification, revision and owner.
 - [ ] A peer or trainer can reproduce the reasoning from the saved evidence.
 
 ## Acceptance criteria
 
-- No scale without control thresholds
-- Employee feedback included
-- Named owner and retirement path
+- Use job-related criteria only
+- Distinguish essential from trainable skills
+- Hiring manager and HR approve every requirement
 - The output is accurate, traceable, usable and explicit about uncertainty.
 - Consequential decisions and actions remain with an authorised human.
 
 ## Scenario questions
 
-1. Which metric looked good but hid harm?
-2. What evidence justifies scale?
-3. How will the organisation retire an agent safely?
+1. Which copied requirement would unnecessarily narrow the talent pool?
+2. What must the hiring manager verify rather than delegate to Copilot?
+3. How does the JD make later screening contestable?
 
 ## Submission naming
 
-`A12-<YourName>-Evidence.xlsx` plus the listed deliverables.
+`A02-<YourName>-Evidence.xlsx` plus the listed deliverables.
 
 ## Source anchors
 
@@ -74,7 +73,7 @@ Use `mock-data.csv` or the **Mock Data** sheet in `Activity-12-Evidence-Workbook
 
 ## Recommended team roles and timing
 
-- **HR process owner:** confirms that the output solves the stated capstone: operate the hr agent control room outcome and remains consistent with approved policy.
+- **HR process owner:** confirms that the output solves the stated draft an inclusive job description with generative ai outcome and remains consistent with approved policy.
 - **AI operator or maker:** records the exact prompt, instructions, knowledge sources, tool choices and revisions.
 - **Reviewer or approver:** independently checks evidence, permissions, fairness, privacy and any consequential action.
 - **Evidence recorder:** keeps the workbook complete enough for another person to reproduce the reasoning.
