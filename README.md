@@ -50,6 +50,8 @@ Each lab has a Markdown and PDF guide, scenario data, and an evidence workbook. 
 - [Trainer slides (PowerPoint)](courseware/Microsoft Copilot for HR-v6.3.pptx) and [PDF](courseware/Microsoft Copilot for HR-v6.3.pdf)
 - [Learner Guide (DOCX)](courseware/LG-Microsoft Copilot for HR.docx), [PDF](courseware/LG-Microsoft Copilot for HR.pdf), and [Markdown](courseware/LEARNER-GUIDE.md)
 - [Lesson Plan (DOCX)](courseware/LP-Microsoft Copilot for HR.docx) and [PDF](courseware/LP-Microsoft Copilot for HR.pdf)
+- [Facilitator Guide (DOCX)](courseware/FG-Microsoft Copilot for HR.docx) and [PDF](courseware/FG-Microsoft Copilot for HR.pdf)
+- [Assessment Plan (DOCX)](courseware/AP-Microsoft Copilot for HR.docx) and [PDF](courseware/AP-Microsoft Copilot for HR.pdf), without answer keys
 - [All learner labs](labs/README.md), [source and coverage register](SOURCE-COVERAGE.md), and [change log](courseware/CHANGELOG.md)
 
 ## Distribution boundary

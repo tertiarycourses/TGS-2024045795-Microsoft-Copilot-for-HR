@@ -7,6 +7,7 @@
 - Converted 12 hands-on activities into numbered Labs with synthetic data, workbooks, prompts, acceptance checks and test evidence.
 - Added worked source, prompt, control, exception and evidence views to the trainer deck.
 - Aligned the 09:30–18:30 timetable and regenerated Written Assessment plus Case Study v3.2.
+- Added a current Facilitator Guide v6.3 and answer-free Assessment Plan v4.1; aligned the TMS learning outcomes and four-unit outline to the current courseware.
 - Superseded v6.2 artifacts and v3.1 assessment files are retained privately under `courseware/archive/`.
 
 ## v6.2 — 16 August 2026
