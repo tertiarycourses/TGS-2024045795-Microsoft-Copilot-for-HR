@@ -3,7 +3,7 @@
 **Course:** TGS-2024045795 — Microsoft Copilot for HR
 **Courseware version:** 6.3 (27 September 2026)
 **Assessment version:** 3.2
-**Result:** PASS for local artifact integrity and alignment; external publication readback recorded separately.
+**Result:** PASS for local artifact integrity, alignment, and external publication readback.
 
 ## Exact artifact hashes
 
@@ -33,6 +33,10 @@
 
 The official course page was checked for the title, code, 2-day/16-hour duration and funding language. Current Microsoft Learn references support Agent Builder, SharePoint knowledge and Copilot Studio agent-flow steps. Visual review of the cover, administration pages, sample evidence views, LG/LP pages and representative lab PDFs found no blank pages or clipped text after reflow.
 
-## Release checks still required
+## Release readback (27 September 2026)
 
-Drive inventory, checksum and anonymous-link checks; LMS/TMS complete edit-data readback and unrelated-field preservation; public GitHub file-tree, secret scan and branch-SHA verification. Do not describe the external release as complete until those checks pass.
+- Google Drive folder `1i6dTEB8l3KnXYagtAckSzMjmv5njJsVE` read back as `TGS-2024045795-Microsoft Copilot for HR`; its hands-on child is `Labs` (`1qC5w8tkw23CrnnoioXFkposW7MViTTKc`). The sync uploaded 83 current lab files and archived 69 superseded files.
+- Drive MD5 matched the local trainer PPTX, learner slide PDF, Learner Guide PDF, Lesson Plan PDF, WA paper and Case Study paper. Each of these has an anonymous reader link. Four archived answer keys were checked individually and have no anonymous permissions.
+- TMS course `622cc321-b45b-4b13-a0df-91f12aa61587` read back with the exact title `Microsoft Copilot for HR`, code `TGS-2024045795`, and the current Drive file IDs for the seven intended courseware fields. Nested assessment methods enable WA and Case Study, disable Practical Performance, and contain no answer key links.
+- A protected before/after edit-data comparison found a `favoriteTrainers` list-to-text serialization defect in the project pusher. It was corrected; that field was restored to its pre-release representation, and a fresh semantic comparison passed for all other non-target fields.
+- The public GitHub tree was checked for current PPTX/PDF/DOCX courseware and absence of `assessment/`, `reference/`, `.env`, archived courseware and obsolete `activities/` paths. Remote branch SHA matched the pushed commit.
