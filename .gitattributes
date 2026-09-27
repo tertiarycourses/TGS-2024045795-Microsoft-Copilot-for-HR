@@ -1,0 +1,7 @@
+*.pdf -text -diff
+*.pptx -text -diff
+*.docx -text -diff
+*.xlsx -text -diff
+*.png -text -diff
+*.jpg -text -diff
+*.jpeg -text -diff

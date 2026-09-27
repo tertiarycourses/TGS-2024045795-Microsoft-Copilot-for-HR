@@ -1,7 +1,7 @@
-# Agentic AI for HR — Learner Guide
+# Microsoft Copilot for HR — Learner Guide
 
-Course code: TGS-2024045795  
-Version: 6.2  
+Course code: TGS-2024045795
+Version: 6.3
 Duration: 2 days / 16 hours
 
 ## Course message
@@ -20,7 +20,7 @@ The supplied ebook presents four unnamed secondary-source cases: recruitment scr
 
 ## Learning Unit 1: From Generative AI to Agentic HR
 
-Slides 17–42 · Choose the lightest capability that safely solves the work
+Slides 17–63 · Choose the lightest capability that safely solves the work
 
 ### Today's HR operating pain
 
@@ -220,9 +220,9 @@ A pilot must prove usefulness, control and adoption together.
 
 Sources: https://www.auxis.com/ai-in-hr-examples-types-use-cases-best-practices/; https://www.strategyand.pwc.com/de/en/functions/organisational-strategy/agentic-ai-in-hr.html
 
-### Activity 1: Assess Talent Needs with Copilot
+### Lab 1: Assess Talent Needs with Copilot
 
-Slides 36–37
+Slides 36–44
 
 Scenario: HarbourLight Logistics SG is opening a digitally enabled distribution hub. HR receives demand forecasts, overtime data, vacancy history and a skills inventory in separate files, so workforce decisions are slow and reactive.
 
@@ -239,7 +239,7 @@ Detailed procedure:
 5. Create hire, redeploy, automate and develop options with assumptions and trade-offs.
 6. Stress-test the preferred option against high- and low-demand scenarios.
 7. Record the human-approved talent need, success measure and review date.
-8. Pass the approved role outcomes and skills to Activity 2.
+8. Pass the approved role outcomes and skills to Lab 2.
 
 Evidence to submit:
 
@@ -259,13 +259,13 @@ Scenario questions:
 2. Where could automation reduce workload without removing accountability?
 3. What evidence would trigger a plan revision?
 
-Full learner pack: `../activities/Activity-01-assess-talent-needs/README.pdf`
+Full learner pack: `../labs/Lab-01-assess-talent-needs/README.pdf`
 
-### Activity 2: Draft an Inclusive Job Description with Generative AI
+### Lab 2: Draft an Inclusive Job Description with Generative AI
 
-Slides 38–39
+Slides 45–53
 
-Scenario: Activity 1 established a need for a Workforce Operations Analyst. The old JD is task-heavy, contains copied requirements and does not reflect the outcomes or skills needed at the new hub.
+Scenario: Lab 1 established a need for a Workforce Operations Analyst. The old JD is task-heavy, contains copied requirements and does not reflect the outcomes or skills needed at the new hub.
 
 Learning goal: Use Word Copilot to draft a skills-based, inclusive and approval-ready job description grounded in the approved talent need.
 
@@ -273,14 +273,14 @@ Tools: Word with Microsoft 365 Copilot; Excel
 
 Detailed procedure:
 
-1. Import the approved role outcomes and skills from Activity 1 or use the supplied fallback brief.
+1. Import the approved role outcomes and skills from Lab 1 or use the supplied fallback brief.
 2. Identify obsolete, vague or non-job-related requirements in the legacy JD.
 3. Prompt Copilot to draft purpose, outcomes, responsibilities and success measures.
 4. Separate essential capabilities from skills that can be developed after hiring.
 5. Add working conditions, reporting line and realistic candidate information.
 6. Run inclusive-language, accessibility and fair-consideration checks.
 7. Ask the hiring manager to validate each criterion and remove unsupported requirements.
-8. Convert the final JD criteria into the anchored screening rubric for Activity 3.
+8. Convert the final JD criteria into the anchored screening rubric for Lab 3.
 
 Evidence to submit:
 
@@ -300,13 +300,13 @@ Scenario questions:
 2. What must the hiring manager verify rather than delegate to Copilot?
 3. How does the JD make later screening contestable?
 
-Full learner pack: `../activities/Activity-02-draft-job-description/README.pdf`
+Full learner pack: `../labs/Lab-02-draft-job-description/README.pdf`
 
-### Activity 3: Screen Resumes with a Fair Evidence Matrix
+### Lab 3: Screen Resumes with a Fair Evidence Matrix
 
-Slides 40–41
+Slides 54–62
 
-Scenario: Six synthetic candidates apply for the Workforce Operations Analyst role from Activity 2. Recruiters currently scan resumes inconsistently and retype evidence into spreadsheets.
+Scenario: Six synthetic candidates apply for the Workforce Operations Analyst role from Lab 2. Recruiters currently scan resumes inconsistently and retype evidence into spreadsheets.
 
 Learning goal: Use Microsoft 365 Copilot to extract job-related evidence at speed while keeping shortlist decisions human, traceable and reviewable.
 
@@ -314,14 +314,14 @@ Tools: Excel with Microsoft 365 Copilot; Word
 
 Detailed procedure:
 
-1. Load the approved JD and anchored rubric from Activity 2 or use the supplied fallback rubric.
+1. Load the approved JD and anchored rubric from Lab 2 or use the supplied fallback rubric.
 2. Review the six synthetic resumes without adding new criteria.
 3. Prompt Copilot to extract evidence for each criterion and mark missing information as unknown.
 4. Verify every extracted item against the source resume.
 5. Calculate rubric results using transparent workbook formulas.
 6. Check for proxy variables, inconsistent standards and false negative risk.
 7. Record the authorised recruiter's shortlist decision separately from AI output.
-8. Pass the shortlisted evidence and unresolved questions to Activity 4.
+8. Pass the shortlisted evidence and unresolved questions to Lab 4.
 
 Evidence to submit:
 
@@ -341,11 +341,11 @@ Scenario questions:
 2. How can a candidate challenge or correct the evidence?
 3. Which screening error creates the greatest harm?
 
-Full learner pack: `../activities/Activity-03-fair-resume-screening/README.pdf`
+Full learner pack: `../labs/Lab-03-fair-resume-screening/README.pdf`
 
 ## Learning Unit 2: Microsoft 365 Copilot Across the HR Lifecycle
 
-Slides 43–64 · Generate and analyse with a human in control
+Slides 64–106 · Generate and analyse with a human in control
 
 ### A grounded prompt pattern
 
@@ -501,11 +501,11 @@ Patterns guide questions; they do not diagnose individuals.
 
 Sources: https://www.gartner.com/en/human-resources/topics/artificial-intelligence-in-hr; https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework
 
-### Activity 4: Prepare and Review Structured Interviews with AI
+### Lab 4: Prepare and Review Structured Interviews with AI
 
-Slides 58–59
+Slides 79–87
 
-Scenario: The recruiter shortlisted three candidates in Activity 3. Managers currently improvise interview questions, take incomplete notes and struggle to compare evidence consistently.
+Scenario: The recruiter shortlisted three candidates in Lab 3. Managers currently improvise interview questions, take incomplete notes and struggle to compare evidence consistently.
 
 Learning goal: Use Copilot to prepare job-related structured questions, organise synthetic interview notes and support a human panel decision.
 
@@ -513,7 +513,7 @@ Tools: Word and Teams with Microsoft 365 Copilot; Excel
 
 Detailed procedure:
 
-1. Review the JD outcomes, rubric and shortlisted evidence from Activities 2–3.
+1. Review the JD outcomes, rubric and shortlisted evidence from Labs 2–3.
 2. Ask Copilot to draft behavioural questions linked to each job outcome.
 3. Create anchored indicators for strong, partial and insufficient evidence.
 4. Add accessibility, candidate-consent and prohibited-question checks.
@@ -540,11 +540,11 @@ Scenario questions:
 2. What interview evidence should Copilot never infer?
 3. How will disagreements between panel members be resolved?
 
-Full learner pack: `../activities/Activity-04-structured-ai-interview/README.pdf`
+Full learner pack: `../labs/Lab-04-structured-ai-interview/README.pdf`
 
-### Activity 5: Automate Onboarding Coordination
+### Lab 5: Automate Onboarding Coordination
 
-Slides 60–61
+Slides 88–96
 
 Scenario: A selected synthetic candidate joins HarbourLight as the Workforce Operations Analyst. Equipment, access, safety training and manager check-ins are currently coordinated through emails and spreadsheets, causing missed tasks and repeated follow-up.
 
@@ -561,7 +561,7 @@ Detailed procedure:
 5. Design deterministic tools for task creation, reminders and status retrieval.
 6. Require human confirmation before closing access, equipment or safety tasks.
 7. Test normal, missing-manager, late-equipment and confidential-question scenarios.
-8. Record cycle-time reduction, exceptions and employee feedback for Activity 12.
+8. Record cycle-time reduction, exceptions and employee feedback for Lab 12.
 
 Evidence to submit:
 
@@ -581,11 +581,11 @@ Scenario questions:
 2. Where could duplicate tasks be created?
 3. What proves the new joiner is ready rather than the checklist merely complete?
 
-Full learner pack: `../activities/Activity-05-onboarding-coordination-agent/README.pdf`
+Full learner pack: `../labs/Lab-05-onboarding-coordination-agent/README.pdf`
 
-### Activity 6: Create a Personalised Talent Development Journey
+### Lab 6: Create a Personalised Talent Development Journey
 
-Slides 62–63
+Slides 97–105
 
 Scenario: After onboarding, the new analyst and two existing employees need different development pathways. HR currently assembles courses manually and managers lack a consistent skills-conversation structure.
 
@@ -622,11 +622,11 @@ Scenario questions:
 2. What would make a recommendation explainable?
 3. Which development decision should never be automated?
 
-Full learner pack: `../activities/Activity-06-talent-development-copilot/README.pdf`
+Full learner pack: `../labs/Lab-06-talent-development-copilot/README.pdf`
 
 ## Learning Unit 3: Build Governed HR Agents
 
-Slides 65–85 · Agent Builder for knowledge; Copilot Studio for orchestration
+Slides 107–148 · Agent Builder for knowledge; Copilot Studio for orchestration
 
 ### Choose the build surface
 
@@ -771,9 +771,9 @@ Test conversations, actions, permissions and recovery—not only happy-path answ
 
 Sources: https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework; https://www.auxis.com/ai-in-hr-examples-types-use-cases-best-practices/
 
-### Activity 7: Draft and Operate an HR Policy Agent
+### Lab 7: Draft and Operate an HR Policy Agent
 
-Slides 79–80
+Slides 121–129
 
 Scenario: Hybrid-work and conduct guidance exists in conflicting files. HR repeatedly answers the same questions and managers sometimes apply outdated rules.
 
@@ -796,7 +796,7 @@ Evidence to submit:
 
 - Conflict register and policy draft
 - Agent instructions and knowledge map
-- 12-case test report
+- 8-case test report
 
 Guardrails:
 
@@ -810,11 +810,11 @@ Scenario questions:
 2. Which exception requires a policy owner instead of an agent?
 3. What operating work is created when self-service is introduced?
 
-Full learner pack: `../activities/Activity-07-policy-qa-agent/README.pdf`
+Full learner pack: `../labs/Lab-07-policy-qa-agent/README.pdf`
 
-### Activity 8: Automate Leave Application and Approval
+### Lab 8: Automate Leave Application and Approval
 
-Slides 81–82
+Slides 130–138
 
 Scenario: Employees message leave dates to HR, which rekeys requests into a tracker and follows up with managers. Balance errors, overlaps and duplicate submissions create avoidable administration.
 
@@ -851,11 +851,11 @@ Scenario questions:
 2. How will the system detect a duplicate request?
 3. Who resolves a disputed leave balance?
 
-Full learner pack: `../activities/Activity-08-leave-agent-flow/README.pdf`
+Full learner pack: `../labs/Lab-08-leave-agent-flow/README.pdf`
 
-### Activity 9: Build a Benefits Self-Service Agent
+### Lab 9: Build a Benefits Self-Service Agent
 
-Slides 83–84
+Slides 139–147
 
 Scenario: HR answers repetitive benefits questions by email and manually checks plan documents. Employees need fast information, but personal eligibility and claims require authenticated data and specialist review.
 
@@ -892,11 +892,11 @@ Scenario questions:
 2. Which benefits question requires immediate human review?
 3. How will employees know the source and effective date of an answer?
 
-Full learner pack: `../activities/Activity-09-benefits-service-agent/README.pdf`
+Full learner pack: `../labs/Lab-09-benefits-service-agent/README.pdf`
 
 ## Learning Unit 4: Responsible Adoption and HR Transformation
 
-Slides 86–109 · Govern decisions, data, people and agent operations
+Slides 149–193 · Govern decisions, data, people and agent operations
 
 ### Why HR AI is high consequence
 
@@ -1074,9 +1074,9 @@ Move from a bounded pilot to an owned capability through evidence gates.
 
 Sources: https://www.strategyand.pwc.com/de/en/functions/organisational-strategy/agentic-ai-in-hr.html; https://www.auxis.com/ai-in-hr-examples-types-use-cases-best-practices/
 
-### Activity 10: Use AI for Workforce Wellness Insights
+### Lab 10: Use AI for Workforce Wellness Insights
 
-Slides 103–104
+Slides 166–174
 
 Scenario: HarbourLight has pulse surveys, absence patterns and workload data, but HR spends days combining them. Leaders want early signals without monitoring or diagnosing individuals.
 
@@ -1113,11 +1113,11 @@ Scenario questions:
 2. How does aggregation reduce but not eliminate privacy risk?
 3. What response supports people without surveillance?
 
-Full learner pack: `../activities/Activity-10-workforce-wellness-insights/README.pdf`
+Full learner pack: `../labs/Lab-10-workforce-wellness-insights/README.pdf`
 
-### Activity 11: Automate Safe Employee Offboarding
+### Lab 11: Automate Safe Employee Offboarding
 
-Slides 105–106
+Slides 175–183
 
 Scenario: A synthetic employee is leaving HarbourLight. HR currently coordinates payroll, assets, access, knowledge transfer and exit communication through separate emails, creating missed tasks and security risk.
 
@@ -1134,7 +1134,7 @@ Detailed procedure:
 5. Design deterministic tasks for assets, final pay, access and records.
 6. Require authorised confirmation before disabling access or closing obligations.
 7. Test cancelled exit, early access removal, missing asset, data leakage and connector failure.
-8. Record completion evidence, employee experience and lessons for Activity 12.
+8. Record completion evidence, employee experience and lessons for Lab 12.
 
 Evidence to submit:
 
@@ -1154,11 +1154,11 @@ Scenario questions:
 2. Where is separation of duties essential?
 3. How can automation preserve dignity during exit?
 
-Full learner pack: `../activities/Activity-11-offboarding-agent/README.pdf`
+Full learner pack: `../labs/Lab-11-offboarding-agent/README.pdf`
 
-### Activity 12: Capstone: Operate the HR Agent Control Room
+### Lab 12: Capstone: Operate the HR Agent Control Room
 
-Slides 107–108
+Slides 184–192
 
 Scenario: HarbourLight now uses generative AI and agents across talent planning, hiring, onboarding, development, policy, leave, benefits, wellness and offboarding. Leaders must decide what to scale, remediate, pause or retire.
 
@@ -1195,7 +1195,7 @@ Scenario questions:
 2. What evidence justifies scale?
 3. How will the organisation retire an agent safely?
 
-Full learner pack: `../activities/Activity-12-hr-agent-control-room/README.pdf`
+Full learner pack: `../labs/Lab-12-hr-agent-control-room/README.pdf`
 
 ## Responsible HR AI checklist
 

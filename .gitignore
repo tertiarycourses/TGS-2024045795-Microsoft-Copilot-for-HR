@@ -1,16 +1,20 @@
-# Local configuration and credentials
+# Credentials and private course records
 .env
 .env.*
+**/.env
+**/.env.*
+assessment/
+reference/
 
-# WSQ assessment materials are confidential
-/assessment/
-/assessment\ /
-
-# Third-party reference material is not republished
-**/reference/
-
-# Rebuildable archives and QA/build working files
-*.zip
+# Superseded releases and generated dependencies
+archive/
+**/archive/
+**/__pycache__/
+*.pyc
+node_modules/
+.venv/
 qa-*/
-courseware/build/
-courseware/assets/
+tmp/
+*.lock
+~$*
+.DS_Store
